@@ -1,0 +1,84 @@
+.air::before {
+	background-image: linear-gradient(160deg, #66e4ec 0%, #f6f5f1 100%);
+}
+
+.antimatter::before {
+	background-image: linear-gradient(160deg, #fad4f9 0%, #e65f8b 100%);
+}
+
+.blackhole::before {
+	background-image: linear-gradient(160deg, #4ff8fb 0%, #fd89e7 100%);
+}
+
+.blood::before {
+	background-image: linear-gradient(160deg, #f6f3ec 0%, #f20e23 100%);
+}
+
+.darkness::before {
+	background-image: linear-gradient(160deg, #fb68fb 0%, #6848ab 100%);
+}
+
+.death::before {
+	background-image: linear-gradient(160deg, #f8c7e1 0%, #f74caa 100%);
+}
+
+.electricity::before {
+	background-image: linear-gradient(160deg, #36faf0 0%, #fced34 100%);
+}
+
+.fairy::before {
+	background-image: linear-gradient(160deg, #6e62ab 0%, #2eb4cd 100%);
+}
+
+.fire::before {
+	background-image: linear-gradient(160deg, #fb712a 0%, #fdd783 100%);
+}
+
+.ice::before {
+	background-image: linear-gradient(160deg, #ecf4f7 0%, #37d9e6 100%);
+}
+
+.light::before {
+	background-image: linear-gradient(160deg, #fef197 0%, #fd9062 100%);
+}
+
+.magic::before {
+	background-image: linear-gradient(160deg, #f77cfb 0%, #4767bb 100%);
+}
+
+.magma::before {
+	background-image: linear-gradient(160deg, #56b9dd 0%, #fe844c 100%);
+}
+
+.nature::before {
+	background-image: linear-gradient(160deg, #fdf8e7 0%, #72f167 100%);
+}
+
+.poison::before {
+	background-image: linear-gradient(160deg, #92de41 0%, #297d3b 100%);
+}
+
+.rainbow::before {
+	background-image: linear-gradient(
+		160deg,
+		#ff4da3 0%,
+		#2f80b0 50%,
+		#8bd0de 100%
+	);
+}
+
+.sun::before {
+	background-image: linear-gradient(160deg, #ee894e 0%, #fbd792 100%);
+}
+
+.technology::before {
+	background-image: linear-gradient(160deg, #1efaf4 0%, #fca9d0 100%);
+}
+
+.water::before {
+	background-image: linear-gradient(160deg, #25c9d3 0%, #198da9 100%);
+}
+
+.weapons::before {
+	background-image: linear-gradient(160deg, #00b9bf 0%, #126275 100%);
+}

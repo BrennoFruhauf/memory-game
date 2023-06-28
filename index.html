@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Memory Game | Login</title>
+		<link rel="shortcut icon" href="./imgs/logo.png" type="image/x-icon" />
+		<link rel="stylesheet" href="./css/reset.css" />
+		<link rel="stylesheet" href="./css/login.css" />
+		<script defer src="./js/login.js"></script>
+	</head>
+	<body>
+		<form>
+			<header>
+				<img src="./imgs/logo.png" id="logo" alt="Head with brain" />
+				<h1>Memory Game</h1>
+			</header>
+
+			<div id="inputs">
+				<div>
+					<h2>Difficulty</h2>
+					<input
+						type="number"
+						min="2"
+						max="20"
+						name="difficulty"
+						id="difficulty"
+						autocomplete="off"
+						placeholder="Choose the number of cards" />
+				</div>
+
+				<div>
+					<input
+						type="text"
+						name="name"
+						id="name"
+						autocomplete="off"
+						placeholder="Enter your name" />
+					<button type="submit" disabled>Play</button>
+				</div>
+			</div>
+		</form>
+	</body>
+</html>

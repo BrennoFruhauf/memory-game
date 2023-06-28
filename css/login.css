@@ -1,0 +1,158 @@
+html,
+body {
+	overflow: hidden;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-image: url('../imgs/bg-login.gif');
+	background-repeat: no-repeat;
+	background-size: cover;
+	backdrop-filter: blur(10px) brightness(0.8);
+	background-color: white;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	width: 540px;
+}
+
+header {
+	display: flex;
+	flex-direction: column;
+	width: inherit;
+}
+
+#logo {
+	width: 70%;
+	margin-inline: auto;
+	filter: drop-shadow(1px -4px 8px #000000ad);
+}
+
+h1 {
+	position: relative;
+	text-align: center;
+	font-family: Glitch;
+	color: white;
+	font-size: 56px;
+	letter-spacing: 5px;
+	user-select: none;
+}
+
+h1::before {
+	content: 'Memory Game';
+	position: absolute;
+	background-image: linear-gradient(
+		45deg,
+		#0059ff,
+		#520083,
+		#ff006a,
+		#ff0000,
+		#ff7300,
+		#fffb00,
+		#73ff00,
+		#00ffaa,
+		#00ffff
+	);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+	background-clip: text;
+	z-index: -1;
+	top: 4px;
+}
+
+#inputs {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	width: 396px;
+	margin-inline: auto;
+}
+
+#inputs > div {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+h2 {
+	flex: 0 1;
+	border: none;
+	padding: 15px 30px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	font-size: 1.2rem;
+	font-weight: 400;
+	color: white;
+	background-color: #8d00e5;
+	user-select: none;
+	width: 136px;
+	text-align: center;
+	transition: background-color 300ms ease-in-out;
+}
+
+input {
+	padding: 15px;
+	border: none;
+	font-size: 1.2rem;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+input[type='number'] {
+	-moz-appearance: textfield;
+	appearance: textfield;
+}
+
+#difficulty {
+	flex: 1 0;
+	width: 260px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+#name {
+	width: 300px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+button {
+	border: none;
+	padding: 15px 30px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	font-size: 1.2rem;
+	background-color: #ff006a;
+	color: white;
+	cursor: pointer;
+}
+
+button:disabled {
+	background-color: rgba(239, 239, 239, 0.3);
+	color: rgba(16, 16, 16, 0.3);
+	cursor: default;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
