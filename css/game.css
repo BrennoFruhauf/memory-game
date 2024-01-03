@@ -414,6 +414,28 @@ input[type='number'] {
 	cursor: default;
 }
 
+@media (max-width: 575px) {
+	header div:first-child {
+		flex-wrap: wrap;
+		gap: 10px;
+	}
+
+	#logo a img {
+		display: block;
+		margin: 0 auto;
+	}
+}
+
+@media (max-width: 531px) {
+	#menu-endgame div:first-child {
+		margin-top: 160px;
+	}
+
+	main {
+		margin-top: 200px;
+	}
+}
+
 @keyframes arise {
 	0% {
 		opacity: 0.3;

@@ -63,9 +63,9 @@ import { selectRandomElements, shuffleArray } from './utilities.js'
 		volumeSlider.value = music.volume
 		volumeSlider.addEventListener('input', adjustVolume)
 
-		document.addEventListener('click', function play() {
+		document.addEventListener('DOMContentLoaded', function play() {
 			music.play()
-			document.removeEventListener('click', play)
+			document.removeEventListener('DOMContentLoaded', play)
 		})
 
 		btn.addEventListener('click', () => {
